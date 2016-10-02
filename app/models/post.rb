@@ -6,4 +6,12 @@ class Post < ActiveRecord::Base
 	validates :body, length: { minimum: 20 }
 
 	has_many :comments
+
+	def self.search(search_term)
+		if search_term
+			@posts = Post.where("title LIKE ?", "%#{search_term}%")
+		else
+			@posts = Post.all.order("created_at DESC")
+		end
+	end
 end

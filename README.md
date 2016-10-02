@@ -11,37 +11,30 @@ URL: **https://rubyblog-hd.herokuapp.com/**
 ## User Stories
 
 The following **required** functionality is complete:
-
-> HINT: mark the items you completed with [x]
-
-* [x] User can create a new post, formatted using the Markdown language.
-* [x] User can edit an existing post.
-* [ ] There is one post that introduces the App Creator with name, picture.
-* [x] User can delete stories, with an alert that asks the user to confirm.
-* [x] User see a search form on the Posts page.
-* [x] User can submit a search term to find all posts bywith titles containing the search term.
+- [x] User can create a new post, formatted using the Markdown language.
+- [x] User can edit an existing post.
+- [x] There is one post that introduces the App Creator with name, picture.
+- [x] User can delete stories, with an alert that asks the user to confirm.
+- [x] User see a search form on the Posts page.
+- [x] User can submit a search term to find all posts bywith titles containing the search term.
 
 The following **optional** features are implemented:
-* [x] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/. 
-* [ ] User can see how many views a post has. 
-* [x] User can leave a comment on a post.
-* [ ] User can add "tags" to a post, and filter posts by tag. 
-
-> HINT: if you are unsure how to implement the Search feature, you can Google how to implement a simple search form. For example, one of the sites you will find is [this](http://www.jorgecoca.com/buils-search-form-ruby-rails/)
+- [x] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/. 
+- [x] User can see how many views a post has. 
+- [x] User can leave a comment on a post.
+- [ ] User can add "tags" to a post, and filter posts by tag. 
 
 The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Employed [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) Bootstrap template to improve UI
+- [x] Support About page
+- [x] Support delete comment
+- [x] Support Flash message on create new post/comment
+- [x] Validate post title and body lengths on creation
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)` 
-> 
-
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -51,7 +44,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Dang Quoc Huy]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

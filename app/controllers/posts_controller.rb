@@ -19,6 +19,7 @@ class PostsController < ApplicationController
 	end
 
 	def show
+		@markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 	end
 
 	def edit

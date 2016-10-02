@@ -6,6 +6,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <h1><%= @post.title %></h1>
+                    <i>(<%= @post.impressionist_count %> viewed)</i>
                     <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
                     <span class="meta">
 						<%= link_to "edit", edit_post_path(@post) %> |

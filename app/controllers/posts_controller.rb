@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
 	before_action :find_post, only: [:show, :edit, :update, :destroy]
+	impressionist :actions => [:show, :index]
+
 	def index
 		@posts = Post.search(params[:search])
 	end
